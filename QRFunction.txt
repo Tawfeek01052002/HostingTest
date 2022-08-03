@@ -1,0 +1,13 @@
+function generate(){   
+    var data =$('#emailInput').val();
+    console.log(data);
+    var url = `https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${data}`;
+    code.src = url;
+    toastDiv();
+}
+function toastDiv() {
+    toast.className = "show";
+    setTimeout( function() {
+        toast.className = toast.className.replace("show" , "");
+    },1000);
+}

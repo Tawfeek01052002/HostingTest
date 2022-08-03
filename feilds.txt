@@ -1,0 +1,13 @@
+1.
+
+//user 
+Full Name
+2.Username/Phone Number
+3.Email_Id
+4.Address
+5.Password
+
+  
+6.doctor_ID
+7.
+8.
